@@ -4,6 +4,8 @@
 @import url(https://xcruxiex.github.io/BBDThemes/Fixes/NocturnalFixes.css);
 
 :root {
+	--test: rgb(255,0,0);
+	--tester: rgb(0,255,0);
 	--backgroundDark: rgb(24, 28, 37);
 	--backgroundDarker: rgb(20, 23, 31);
 	--primary: #008ae6;
@@ -28,7 +30,7 @@
 }
 
 .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,.enabled-1t_Gxm:hover,.nowPlayingColumn-2sl4cE,.peopleList-3c4jOR,.container-1D34oG,#friends,.appMount-3VJmYg,.applicationStore-1pNvnv,.article-3kb3qm,.body-3ND3kc,.body-3iLsc4,.channels-Ie2l6A,.chat-3bRxxu,.chat-3bRxxu form,.container-1UB9sr,.container-2Thooq,.container-3ayLPN,.container-PNkimc,.content-yTz4x3,.footer-1fjuF6,.gameLibrary-TTDw4Y,.guildsWrapper-5TJh6A,.header-2o-2hj,.header-39GIC8,.headerBar-UHpsPw,.members-1998pB,.messagesWrapper-3lZDfY,.root-1BQpZw,.root-26DmKJ,.title-3qD0b-,.typeWindows-1za-n7,.video-1FfuMD, .da-peopleList, .da-nowPlayingScroller, .da-itemCard {
-	background-color: var(--backgroundDark)!important
+	background-color: var(--test)!important
 }
 .peopleListItem-2nzedh:hover,
 .wrapper-3D2qGf {background-color: rgba(0,0,0,.25)}
@@ -40,7 +42,7 @@
 .content-1o0f9g,
 .scrollableContainer-2NUZem,
 .popout-13LQ_3 {
-  background-color: var(--backgroundDark)!important;
+  background-color: var(--tester)!important;
   box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.5)!important;
 }
 .webkit-HjD9Er .buttons-3JBrkn {margin-right: 5px;}
